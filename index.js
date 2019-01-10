@@ -1,4 +1,4 @@
-var wiredep = require('wiredep');
+var wiredep = require('wiredep-away');
 var path    = require("path");
 
 function createPattern(path) {
