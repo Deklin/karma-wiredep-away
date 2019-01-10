@@ -1,6 +1,6 @@
-# karma-wiredep [![Build Status](https://travis-ci.org/lbragaglia/karma-wiredep.svg?branch=master)](https://travis-ci.org/lbragaglia/karma-wiredep)
+# karma-wiredep-away [![Build Status](https://travis-ci.org/Deklin/karma-wiredep-away.svg?branch=master)](https://travis-ci.org/Deklin/karma-wiredep-away)
 
-> Loads bower dependencies into your test scope. 
+> Loads npm/yarn dependencies into your test scope. 
 
 If you want to have all of your production or development bower dependencies into your karma tests, such as `sinon` or `jasmine-jquery`, you can easily 
 do it with this plugin with the help of `wiredep`
@@ -8,7 +8,7 @@ do it with this plugin with the help of `wiredep`
 
 ## Simple example
 
-`npm install karma-wiredep --save-dev`
+`npm install karma-wiredep-away --save-dev`
 
 Then add into your `karma.conf.js`
 
@@ -25,14 +25,13 @@ module.exports = function(config) {
             overrides: { ... }
         },
 
-        plugins : [ 'karma-wiredep' ]
+        plugins : [ 'karma-wiredep-away' ]
     });
 };
 ```
 
-All the bower dependencies will be included. If some package is missing the `main` section in its `bower.json`, you can configure the `overrides` section for that package. 
+All the bower dependencies will be included. If some package is missing the `main` section in its `package.json`, you can configure the `overrides` section for that package. 
 
 Also note that plugin should be included in `frameworks` section *before* your test framework
 (mocha or jasmine).
 
-[bower]: http://bower.io

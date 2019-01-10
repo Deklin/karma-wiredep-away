@@ -1,25 +1,25 @@
 {
-  "name": "karma-wiredep",
-  "version": "1.0.3",
-  "description": "Loads bower dependencies into your test scope",
+  "name": "karma-wiredep-away",
+  "version": "1.0.4",
+  "description": "Loads npm/yarn dependencies into your test scope",
   "main": "index.js",
   "scripts": {
-    "prepublish": "bower install",
+    "prepublish": "yarn install",
     "test": "karma start --single-run",
     "dev": "karma start --no-single-run"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lbragaglia/karma-wiredep.git"
+    "url": "https://github.com/Deklin/karma-wiredep-away.git"
   },
   "author": "lbragaglia",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lbragaglia/karma-wiredep/issues"
+    "url": "https://github.com/Deklin/karma-wiredep-away/issues"
   },
-  "homepage": "https://github.com/lbragaglia/karma-wiredep",
+  "homepage": "https://github.com/Deklin/karma-wiredep-away",
   "dependencies": {
-    "wiredep": "^2.2.2"
+    "wiredep-away": "^0.1.3"
   },
   "devDependencies": {
     "bower": "^1.4.1",
