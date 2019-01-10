@@ -1,6 +1,6 @@
 {
   "name": "karma-wiredep-away",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "Loads npm/yarn dependencies into your test scope",
   "main": "index.js",
   "scripts": {
