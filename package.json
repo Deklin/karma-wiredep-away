@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/Deklin/karma-wiredep-away.git"
   },
-  "author": "lbragaglia",
+  "author": "Deklin",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Deklin/karma-wiredep-away/issues"
